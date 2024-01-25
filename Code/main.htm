@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books_List</title>
+    <link rel="stylesheet" href="Styling.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="logo">Books List</span>
+            <label>
+                <input type="checkbox" class="switch-checkbox">
+                <div class="toggle-switch"></div>
+            </label>
+        </header>
+        <section>
+            <form action="#">
+                <label for="#">
+                    <span>Name</span>
+                    <input type="text" placeholder="book's name">
+                    
+                </label>
+                <label for="#">
+                    <span>author</span>
+                    <input type="text" placeholder="author's name">
+                    
+                </label>
+                <label for="#">
+                    <span>ISBN</span>
+                    <input type="text" placeholder="book's ISBN">
+                </label>
+                <button type="submit">submit</button>
+            </form>
+            <div class="books-info">
+                <label class="filter">
+                    <i class="fa-solid fa-search"></i>
+                    <input type="text" placeholder="search...">
+                </label>
+                <ul>
+               
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="SuperMain.js"></script>
+</html>
